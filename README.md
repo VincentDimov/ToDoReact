@@ -1,17 +1,48 @@
-# React + Vite
+📝 Exercise – React Todo List
+🎯 Goal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Create a simple Todo List app using React.
 
-Currently, two official plugins are available:
+🧩 Instructions
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Create state
 
-## React Compiler
+Initialize an array of 5 todos in your component’s state.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Each todo should include:
 
-## Expanding the ESLint configuration
+title (string)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# ToDoReact
+description (string)
+
+completed (boolean)
+
+Display todos
+
+Render the title of each todo in the UI.
+
+If a todo is not completed, also display its description.
+
+If a todo is completed, its title should appear in green.
+
+Add new todos
+
+Implement functionality to add a new todo to the state.
+
+The new todo should have a title and a description.
+
+🌟 Extra Features
+
+Delete a todo:
+Allow users to remove a todo from the list.
+
+Mark as completed:
+Add functionality to toggle a todo’s completion status with a click.
+
+💡 Tips
+
+Use React’s useState hook to manage your todos.
+
+Remember to use unique keys when rendering lists in React (key prop).
+
+Consider styling completed todos with a green color
